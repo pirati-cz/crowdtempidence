@@ -1,0 +1,24 @@
+{
+  "name": "crowdtempidence",
+  "version": "0.0.1",
+  "description": "crowidtempidence - temporary crowdsourced HR database",
+  "author": {
+    "name": "Tomáš Klapka",
+    "email": "tomas@klapka.cz"
+  },
+  "license": "LGPL-3.0+",
+  "main": "./lib/cevid",
+  "scripts": {
+    "prepublish": "gulp scripts"
+  },
+  "dependencies": {
+    "express": "latest",
+    "request": "latest",
+    "cheerio": "latest"
+  },
+  "devDependencies": {
+    "coffee-script": "latest",
+    "gulp": "latest",
+    "gulp-coffee": "latest"
+  }
+}
